@@ -12,6 +12,6 @@ from Visualization.ShowPlot import ShowHistogram
 FileName = 'Data/base.csv'
 
 FileData = FileOper.LoadFile(FileName)
-FileData = DataOper.ReplaceNullData(FileData)
+FileData = DataOper.ReplaceNullData(FileData, 0)
 MeanRes = AnaOper.CalcMean(FileData)
 ShowHistogram(FileData)

@@ -4,8 +4,8 @@
 @author: Siying Liu
 """
 
-def LoadFile():
-    pass
+def LoadFile(name):
+    print('LoadFile name =', name)
 
-def SaveFile():
-    pass
+def SaveFile(name, data):
+    print('SaveFile name =', name)

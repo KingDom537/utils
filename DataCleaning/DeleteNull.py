@@ -4,8 +4,8 @@
 @author: Siying Liu
 """
 
-def DeleteNullData():
-    pass
+def DeleteNullData(data):
+    print('DeleteNullData')
 
-def ReplaceNullData():
-    pass
+def ReplaceNullData(data, place):
+    print('ReplaceNullData place =', place)

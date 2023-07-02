@@ -4,8 +4,8 @@
 @author: Siying Liu
 """
 
-def ShowHistogram():
-    pass
+def ShowHistogram(data):
+    print('ShowHistogram')
 
-def ShowLineChart():
-    pass
+def ShowLineChart(data):
+    print('ShowLineChart')

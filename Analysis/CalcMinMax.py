@@ -4,11 +4,11 @@
 @author: Siying Liu
 """
 
-def CalcMin():
-    pass
+def CalcMin(data):
+    print('CalcMin')
 
-def CalcMean():
-    pass
+def CalcMax(data):
+    print('CalcMax')
 
-def CalcMean():
-    pass
+def CalcMean(data):
+    print('CalcMean')
